@@ -7,7 +7,7 @@
 Chinese Notice: 如果无法查看此文档中的图片,请下载次项目后在自己电脑查看此 README.md
 
 1、Fork this repository
-
+ 
 2、Please rewrite the target host name in api/proxy.js to "google.com" by default.
 
 ```js
