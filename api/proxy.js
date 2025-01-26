@@ -1,7 +1,7 @@
 const { createProxyMiddleware } = require("http-proxy-middleware");
 
 module.exports = (req, res) => {
-    let target = "https://www.google.com/"; // 默认的代理目标
+    let target = "https://ipv6.google.com/"; // 默认的代理目标
     let proxyUrl = null;
 
     // 尝试解析请求 URL，查找是否有类似 "https://www.example.com" 这样的模式
