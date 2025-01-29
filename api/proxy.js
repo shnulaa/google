@@ -4,7 +4,7 @@ module.exports = (req, res) => {
     let target = "https://api.groq.com/"; // 默认的代理目标
     let proxyUrl = null;
 
-    // 尝试解析请求 URL，查找是否有类似 "https://www.example.com" 这样的模式
+    // 尝试解析请求 URL，查找是否有类似 "https://www.example.com" 这样的模式 
     try {
         const urlMatch = req.url.match(/^(https?:\/\/[^\/]+)/);
         if(urlMatch) {
